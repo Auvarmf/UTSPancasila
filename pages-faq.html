@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Auvar Mahsa Fahlevi</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.gstatic.com" rel="preconnect">
+    <link
+        href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+        rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.snow.css" rel="stylesheet">
+    <link href="assets/vendor/quill/quill.bubble.css" rel="stylesheet">
+    <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+    <link href="assets/vendor/simple-datatables/style.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <style>
+        p {
+            text-align: justify;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+
+        <div class="d-flex align-items-center justify-content-between">
+            <a href="index.html" class="logo d-flex align-items-center">
+                <img src="img/aflogoblack.png" alt="">
+                <span class="d-none d-lg-block">FNews</span>
+            </a>
+            <i class="bi bi-list toggle-sidebar-btn"></i>
+        </div><!-- End Logo -->
+
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+
+                <li class="nav-item dropdown pe-3">
+
+                    <a class="nav-link nav-profile d-flex align-items-center pe-0" href="#" data-bs-toggle="dropdown">
+                        <img src="img/fotoamf.jpg" alt="Profile" class="rounded-circle">
+                        <span class="d-none d-md-block dropdown-toggle ps-2">Auvar M.F.</span>
+                    </a><!-- End Profile Iamge Icon -->
+
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li class="dropdown-header">
+                            <h6>Auvar Mahsa Fahlevi</h6>
+                            <span>Pendidikan Pancasila</span>
+                        </li>
+                        <li>
+                            <hr class="dropdown-divider">
+                        </li>
+
+                        <li>
+                            <a class="dropdown-item d-flex align-items-center" href="users-profile.html">
+                                <i class="bi bi-person"></i>
+                                <span>My Profile</span>
+                            </a>
+                        </li>
+                    </ul><!-- End Profile Dropdown Items -->
+                </li><!-- End Profile Nav -->
+
+            </ul>
+        </nav><!-- End Icons Navigation -->
+
+    </header><!-- End Header -->
+
+    <!-- ======= Sidebar ======= -->
+    <aside id="sidebar" class="sidebar">
+
+        <ul class="sidebar-nav" id="sidebar-nav">
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="index.html">
+                    <i class="bi bi-grid"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="power-point.html">
+                    <i class="bi bi-layout-text-window-reverse"></i><span>Power Point</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="video.html">
+                    <i class="bi bi-bar-chart"></i><span>Video</span>
+                </a>
+            </li><!-- End Dashboard Nav -->
+
+            <li class="nav-heading">Pages</li>
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="users-profile.html">
+                    <i class="bi bi-person"></i>
+                    <span>Profile</span>
+                </a>
+            </li><!-- End Profile Page Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link collapsed" href="pages-contact.html">
+                    <i class="bi bi-envelope"></i>
+                    <span>Contact</span>
+                </a>
+            </li><!-- End Contact Page Nav -->
+
+            <li class="nav-item">
+                <a class="nav-link " href="pages-faq.html">
+                    <i class="bi bi-question-circle"></i>
+                    <span>F.A.Q</span>
+                </a>
+            </li><!-- End F.A.Q Page Nav -->
+
+        </ul>
+
+    </aside><!-- End Sidebar-->
+
+    <main id="main" class="main">
+
+        <div class="pagetitle">
+            <h1>Dashboard</h1>
+            <nav>
+                <ol class="breadcrumb">
+                    <li class="breadcrumb-item"><a href="index.html">Home</a></li>
+                    <li class="breadcrumb-item">Pages</li>
+                    <li class="breadcrumb-item active">Frequently Asked Questions</li>
+                </ol>
+            </nav>
+        </div><!-- End Page Title -->
+
+        <section class="section dashboard">
+            <div class="row">
+
+                <!-- Left side columns -->
+                <div class="col-lg-8">
+                    <div class="row">
+
+                        <!-- F.A.Q Group 1 -->
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title">Pertanyaan yang Sering Diajukan</h5>
+
+                                <div class="accordion accordion-flush" id="faq-group-1">
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-target="#faqsOne-1"
+                                                type="button" data-bs-toggle="collapse">
+                                                Apa tujuan website ini dibuat?
+                                            </button>
+                                        </h2>
+                                        <div id="faqsOne-1" class="accordion-collapse collapse"
+                                            data-bs-parent="#faq-group-1">
+                                            <div class="accordion-body">
+                                                Website ini dibuat dengan tujuan untuk membahas sebuah permasalahan
+                                                terkait Pancasila dalam kajian sejarah bangsa dan solusi dari
+                                                permasalahan tersebut.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-target="#faqsOne-2"
+                                                type="button" data-bs-toggle="collapse">
+                                                Tema apa yang diangkat pada website ini?
+                                            </button>
+                                        </h2>
+                                        <div id="faqsOne-2" class="accordion-collapse collapse"
+                                            data-bs-parent="#faq-group-1">
+                                            <div class="accordion-body">
+                                                Tema apa yang diangkat pada website ini adalah pancasila dalam kajian
+                                                sejarah bangsa.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-target="#faqsOne-3"
+                                                type="button" data-bs-toggle="collapse">
+                                                Apa yang membedakan website ini dengan ppt/pdf yang dibuat?
+                                            </button>
+                                        </h2>
+                                        <div id="faqsOne-3" class="accordion-collapse collapse"
+                                            data-bs-parent="#faq-group-1">
+                                            <div class="accordion-body">
+                                                Pada website ini, pembawaan materinya didesain seperi website berita
+                                                sedangkan pada ppt dibahas seperti ppt pada umumnya dengan menampilkan
+                                                poin-poin yang penting saja.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="accordion-item">
+                                        <h2 class="accordion-header">
+                                            <button class="accordion-button collapsed" data-bs-target="#faqsOne-4"
+                                                type="button" data-bs-toggle="collapse">
+                                                Mengapa harus dibuat dalam bentuk website dan mengapa tidak menggunakan
+                                                ppt atau pdf saja?
+                                            </button>
+                                        </h2>
+                                        <div id="faqsOne-4" class="accordion-collapse collapse"
+                                            data-bs-parent="#faq-group-1">
+                                            <div class="accordion-body">
+                                                Pembahasan Pancasila dalam bentuk website lebih efektif karena dapat
+                                                diakses oleh masyarakat luas, interaktif, dan mudah
+                                                dibagikan.
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                        </div><!-- End F.A.Q Group 1 -->
+
+                    </div>
+                </div><!-- End Left side columns -->
+
+                <!-- Right side columns -->
+                <div class="col-lg-4">
+
+                    <!-- News & Updates Traffic -->
+                    <div class="card">
+
+                        <div class="card-body pb-0">
+                            <h5 class="card-title">News &amp; Source</h5>
+
+                            <div class="news">
+                                <div class="post-item clearfix">
+                                    <img src="img/rfkompasiana.jpg" alt="">
+                                    <h4><a
+                                            href="https://www.kompasiana.com/afisriosanjaya3560/607d310844b57874c16a99d7/masuknya-ideologi-asing-dalam-kehidupan-berbangsa-dan-bernegara">Masuknya
+                                            Ideologi Asing Dalam Kehidupan Berbangsa Dan Bernegara</a>
+                                    </h4>
+                                    <p>Pancasila merupakan ideologi yang terbuka bagi seluruh perkembangan zaman tetapi
+                                        saat ini pancasila memiliki tantangan
+                                        yang berasal dari luar,...</p>
+                                </div>
+
+                                <div class="post-item clearfix">
+                                    <img src="img/news-5.jpg" alt="">
+                                    <h4><a
+                                            href="https://nasional.kompas.com/read/2023/08/21/23145241/pelajaran-pendidikan-pancasila-hidup-lagi-buku-teksnya-diluncurkan">Pelajaran
+                                            Pendidikan Pancasila "Hidup" Lagi, Buku Teksnya
+                                            Diluncurkan</a></h4>
+                                    <p>Pemerintah kembali mengadakan mata pelajaran pendidikan Pancasila pada jenjang
+                                        pendidikan anak usia dini (PAUD) hingga
+                                        sekolah menengah atas (SMA) pada tahun ini....
+                                    </p>
+                                </div>
+
+                                <div class="post-item clearfix">
+                                    <img src="img/rfrepublika.jpg" alt="">
+                                    <h4><a
+                                            href="https://rejabar.republika.co.id/berita/rctp3w396/ini-penyebab-milenial-kurang-paham-pancasila">Ini
+                                            Penyebab Milenial Kurang Paham Pancasila</a></h4>
+                                    <p>Tokoh elite yang ada di Tanah Air, harus mengimplementasikan nilai-nilai
+                                        Pancasila. Karena, selain diharapkan mampu
+                                        membawa perubahan bagi kondisi negara,...
+                                    </p>
+                                </div>
+
+                            </div><!-- End sidebar recent posts-->
+
+                        </div>
+                    </div><!-- End News & Updates -->
+
+                </div><!-- End Right side columns -->
+
+            </div>
+        </section>
+
+    </main><!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer" class="footer">
+        <div class="copyright">
+            &copy; Copyright <strong><span>FNews</span></strong>. All Rights Reserved
+        </div>
+    </footer><!-- End Footer -->
+
+    <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/apexcharts/apexcharts.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/chart.js/chart.umd.js"></script>
+    <script src="assets/vendor/echarts/echarts.min.js"></script>
+    <script src="assets/vendor/quill/quill.min.js"></script>
+    <script src="assets/vendor/simple-datatables/simple-datatables.js"></script>
+    <script src="assets/vendor/tinymce/tinymce.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
